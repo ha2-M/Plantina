@@ -43,7 +43,7 @@ seamless way to browse, select, and purchase plants from home with ease.
 For any questions or inquiries, please contact:
 # Hadeer Mohamed
 - LinkedIn: https://www.linkedin.com/in/hadeer-mohamed-016bb722b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
--Email:hadeermohameed07@gmail.com
+- Email:hadeermohameed07@gmail.com
 
 
 
