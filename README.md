@@ -4,8 +4,7 @@
 Plantina is an Android app that serves as an online store for plant enthusiasts, providing a
 seamless way to browse, select, and purchase plants from home with ease.
 # Features
-- Home: Effortlessly search for plants by name or apply filters to refine your search.
--  Add products to your Favorites or Cart with just a tap.
+- Home: Effortlessly search for plants by name or apply filters to refine your search.Add products to your Favorites or Cart with just a tap.
 - Cart: Review the plants you wish to purchase, complete with detailed pricing.
 - Favorite: Save your preferred plants by adding them to your Favorites list.
 - Profile: Manage your personal information and view your profile picture.
