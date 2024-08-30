@@ -1,4 +1,4 @@
-# plantina Andriod App
+# Plantina Andriod App
 ![app](https://github.com/user-attachments/assets/c2a3ece6-419b-4dac-8382-90fb6be6fada)
 # Overview
 Plantina is an Android app that serves as an online store for plant enthusiasts, providing a
