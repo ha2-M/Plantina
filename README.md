@@ -36,6 +36,13 @@ seamless way to browse, select, and purchase plants from home with ease.
 # Profile
 ![profile](https://github.com/user-attachments/assets/f9978e4a-8337-4427-8adf-e1214e02cb46)
 
+# Contact
+For any questions or inquiries, please contact:
+Hadeer Mohamed
+LinkedIn: https://www.linkedin.com/in/hadeer-mohamed-016bb722b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+Email:hadeermohameed07@gmail.com
+
+
 # Menu
 ![menu](https://github.com/user-attachments/assets/d9aa4636-2557-44bf-8876-95d5d96e5372)
 
