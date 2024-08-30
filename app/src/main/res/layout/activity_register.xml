@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@drawable/background"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_80sdp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:textSize="@dimen/_30sdp"
+         />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_your_new_account"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="#A5AFA8"
+            android:layout_marginTop="@dimen/_5sdp"
+            />
+
+
+        <EditText
+            android:id="@+id/regist_name"
+        android:inputType="textPersonName"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@drawable/backgrond_edit"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="@dimen/_10sdp"
+            android:hint="@string/full_name"
+            android:paddingHorizontal="@dimen/_10sdp"
+           />
+
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:inputType="phone"
+            android:background="@drawable/backgrond_edit"
+            android:drawableStart="@drawable/phone"
+            android:drawablePadding="@dimen/_10sdp"
+            android:hint="@string/phone"
+            android:paddingHorizontal="@dimen/_10sdp"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/backgrond_edit"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="@dimen/_10sdp"
+            android:hint="@string/email"
+            android:paddingHorizontal="@dimen/_10sdp"
+          />
+
+        <EditText
+        android:id="@+id/register_pass"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:inputType="textPassword"
+            android:background="@drawable/backgrond_edit"
+            android:drawableStart="@drawable/lock"
+            android:drawablePadding="@dimen/_10sdp"
+            android:hint="@string/password"
+            android:paddingHorizontal="@dimen/_10sdp"
+        />
+
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:inputType="textPassword"
+            android:background="@drawable/backgrond_edit"
+            android:drawableStart="@drawable/lock"
+            android:drawablePadding="@dimen/_10sdp"
+            android:hint="@string/confirm_password"
+            android:paddingHorizontal="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_singup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/main_color"
+        android:text="@string/sing_up"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_40sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintWidth_percent="0.80" />
+
+    <TextView
+        android:id="@+id/textlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/already_have_an_account"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_singup" />
+
+
+    <TextView
+android:id="@+id/text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/underlinelogin"
+        android:paddingStart="@dimen/_5sdp"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textlogin"
+        app:layout_constraintStart_toEndOf="@+id/textlogin"
+        app:layout_constraintTop_toBottomOf="@+id/btn_singup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

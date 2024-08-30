@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Profile"
+        android:paddingBottom="@dimen/_5sdp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:src="@drawable/baseline_account_circle_24"
+        />
+
+    <ImageView
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/main_color"
+       android:src="@drawable/edit"
+        android:scaleType="fitXY"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:layout_gravity="end"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_gravity="start"
+        android:textSize="@dimen/_16sdp"
+        />
+
+    <EditText
+        android:id="@+id/your_name"
+        android:inputType="textPersonName"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:background="@drawable/backgrond_edit"
+        android:drawableStart="@drawable/user"
+        android:drawablePadding="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_gravity="start"
+        android:textSize="@dimen/_16sdp"
+        />
+
+    <EditText
+        android:id="@+id/your_email"
+        android:inputType="textPersonName"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:background="@drawable/backgrond_edit"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_gravity="start"
+        android:textSize="@dimen/_16sdp"
+        />
+    <EditText
+        android:id="@+id/your_phone"
+        android:inputType="textPersonName"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:background="@drawable/backgrond_edit"
+        android:drawableStart="@drawable/phone"
+        android:drawablePadding="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/main_color"
+        android:text="Save"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        android:layout_gravity="end"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_log_out"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="@color/main_color"
+        android:text="log out"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+
+        />
+<!--for add data-->
+<!--    <TextView-->
+<!--        android:id="@+id/btn_data"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/main_color"-->
+<!--        android:text="data"-->
+<!--        android:padding="@dimen/_5sdp"-->
+<!--        android:layout_marginTop="@dimen/_10sdp"-->
+<!--        android:layout_marginEnd="@dimen/_20sdp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="@dimen/_14sdp"-->
+<!--        android:layout_gravity="end"-->
+<!--        />-->
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Plantina</string>
+    <string name="get_started">Get Started</string>
+    <string name="find_out_your_favourite_plants_on_our_store"> Let’s find \nyour favorite \nplants on our store</string>
+    <string name="welcome_to_plantilia">Welcome to Plantina</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="underline_sign_up"><u>Sign up</u></string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="sing_up">Sing up</string>
+    <string name="login">Login</string>
+    <string name="to_your_account">to your account</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="register">Register</string>
+    <string name="create_your_new_account">Create your new account</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">already have an account ?</string>
+    <string name="underlinelogin"><u>Login</u></string>
+    <string name="phone">Phone</string>
+    <string name="my_favorite">My Favorite</string>
+</resources>
